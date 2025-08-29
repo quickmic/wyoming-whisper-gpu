@@ -41,7 +41,7 @@ RUN \
         --extra-index-url https://www.piwheels.org/simple \
         "wyoming-faster-whisper @ https://github.com/rhasspy/wyoming-faster-whisper/archive/refs/tags/v${WHISPER_VERSION}.tar.gz" &&\
     \
-    cp /app/lib/python3.10/site-packages/nvidia/cudnn/lib/lib*.so.* /app/lib/ &&\
+    cp /app/lib/python3.12/site-packages/nvidia/cudnn/lib/lib*.so.* /app/lib/ &&\
     \
     apt-get purge -y --auto-remove \
         build-essential \
