@@ -1,7 +1,7 @@
 ##########################################
-FROM nvidia/cuda:12.3.2-base-ubuntu22.04
+FROM nvidia/cuda:12.8.1-base-ubuntu24.04
 
-ARG WHISPER_VERSION='2.4.0'
+ARG WHISPER_VERSION='2.5.0'
 
 ENV LANG=C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
