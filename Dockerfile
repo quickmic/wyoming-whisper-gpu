@@ -1,5 +1,5 @@
 ##########################################
-FROM nvidia/cuda:13.0.0-base-ubuntu24.04
+FROM docker.io/nvidia/cuda:13.0.0-base-ubuntu24.04
 
 ARG WHISPER_VERSION='2.5.0'
 
